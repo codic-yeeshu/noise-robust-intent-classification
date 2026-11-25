@@ -1,0 +1,17 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Training outputs & large model checkpoints
+outputs/
+*.pt
+*.pt.tmp
+*.bin
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
